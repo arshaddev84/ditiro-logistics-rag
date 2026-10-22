@@ -1,0 +1,20 @@
+[2026-10-15T06:10:00Z] TRAFFIC | N3 near Mooi River | Synthetic report of a lane closure following a vehicle breakdown; dispatch to check route estimate before departure.
+[2026-10-15T06:25:00Z] PORT | Durban Container Terminal | Synthetic terminal notice: gate processing is slower than planned; drivers should remain in the designated staging area.
+[2026-10-15T06:40:00Z] WEATHER | Van Reenen's Pass | Synthetic forecast flags strong crosswinds; high-sided vehicles should follow the carrier's weather procedure.
+[2026-10-15T06:55:00Z] CUSTOMER | Midrand Distribution Centre | Synthetic receiver update: inbound appointments are running approximately 30 minutes behind.
+[2026-10-15T07:05:00Z] VEHICLE | N3 southbound near Heidelberg | Synthetic telematics alert reports a temperature-sensor warning on unit ZA-FL-005; driver asked to stop at a safe location and contact dispatch.
+[2026-10-15T07:15:00Z] ROADWORKS | N2 near Pinetown | Synthetic lane-restriction notice; route planner should allow extra transit time.
+[2026-10-15T07:30:00Z] WAREHOUSE | Cape Town Distribution Centre | Synthetic receiving update: chilled-goods dock is temporarily unavailable during equipment inspection.
+[2026-10-15T07:45:00Z] SECURITY | N4 near Belfast | Synthetic carrier bulletin advises using approved stops and reporting unexpected route deviations.
+[2026-10-15T08:00:00Z] FUEL | Durban North service area | Synthetic site update reports one diesel pump island unavailable; dispatch to confirm fuel plan with driver.
+[2026-10-15T08:05:00Z] TELEMATICS | N3 corridor | Synthetic feed shows ZA-FL-002 stationary after moving south; status requires driver confirmation.
+[2026-10-15T08:10:00Z] TRAFFIC | R300 near Cape Town | Synthetic congestion report; estimated delay is not yet verified by the road authority.
+[2026-10-15T08:20:00Z] CUSTOMER | Pinetown Hub | Synthetic consignee requests updated ETA for order ORD-20261015-002 before its receiving window.
+[2026-10-15T08:35:00Z] COLD_CHAIN | Durban to Pinetown route | Synthetic reefer alert indicates a brief temperature excursion; preserve the logger record and escalate for review.
+[2026-10-15T08:50:00Z] PORT | Bayhead Road, Durban | Synthetic queue estimate has increased; drivers should not leave the authorized staging route.
+[2026-10-15T09:05:00Z] VEHICLE | N1 near Paarl | Synthetic tire-pressure warning reported; driver requested to use a safe inspection area.
+[2026-10-15T09:20:00Z] WAREHOUSE | Alrode Industrial Park | Synthetic receiving team reports a short backlog at the inbound gate.
+[2026-10-15T09:35:00Z] WEATHER | Western Cape | Synthetic heavy-rain alert may affect travel times; confirm conditions through approved sources before rerouting.
+[2026-10-15T09:50:00Z] DOCUMENT | Order ORD-20261015-011 | Synthetic proof-of-delivery image is unreadable; request a clearer copy before closing the delivery record.
+[2026-10-15T10:05:00Z] SECURITY | Johannesburg to Sasolburg corridor | Synthetic control-room note requests a driver check-in at the next approved stop.
+[2026-10-15T10:20:00Z] CUSTOMER | Cape Town Distribution Centre | Synthetic receiving update confirms the chilled-goods dock has reopened; appointment time still needs confirmation.

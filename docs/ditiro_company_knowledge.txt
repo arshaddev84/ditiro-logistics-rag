@@ -1,0 +1,96 @@
+DITIRO LOGISTICS
+Synthetic company profile and demo knowledge base
+Status: Fictional example content for Ditiro testing. Not a real company policy or service commitment.
+Last updated: 2026-10-15
+
+COMPANY OVERVIEW
+Ditiro Logistics is a fictional South African road-freight provider created for this demo dataset. The example operation coordinates line-haul freight, regional distribution, cross-docking, and temperature-controlled deliveries. Example routes connect Durban, Johannesburg, Pretoria, Bloemfontein, Cape Town, Gqeberha, Polokwane, and nearby regional depots.
+
+The company name, contacts, service descriptions, hours, and procedures in this file are synthetic. They must not be treated as verified information about a real logistics provider.
+
+SERVICE CATEGORIES
+- General freight: palletized ambient goods and packaged consumer products.
+- Temperature-controlled freight: chilled and frozen consignments with recorded vehicle checks.
+- Regional distribution: scheduled deliveries between depots, retail hubs, and business customers.
+- Cross-docking: transfer of freight between inbound and outbound vehicles at a hub.
+- Shipment visibility: order, scan, and telematics events used to support operational queries.
+
+OPERATING MODEL
+- Dispatch coordinates vehicle allocation, route status, and exception escalation.
+- Warehouse teams record receipt, loading, gate-out, and transfer scans.
+- Drivers submit status updates and delivery evidence through the fictional operating workflow.
+- Customer service communicates confirmed shipment updates to customers.
+- A missing scan is not proof that an activity did not occur; verify with the responsible depot or dispatch team.
+- A telematics position is time-bound. Always report its timestamp and do not present a stale position as current.
+
+DEMO SERVICE TARGETS
+These are illustrative values for sample data only, not contractual service levels:
+- Standard regional delivery target: same day or next working day, depending on route and booking.
+- Long-haul delivery target: set per order and recorded as an SLA deadline.
+- Temperature-controlled loads: handling requirements are set on the individual shipment record.
+- Any delay estimate must be based on current evidence and confirmed by dispatch before being shared as a commitment.
+- Penalty amounts in the sample orders are fictional customer-specific examples.
+
+EXCEPTION HANDLING
+1. Confirm the order ID and the most recent event timestamp.
+2. Check the relevant source: order record, warehouse scan, driver update, or customer communication.
+3. Distinguish confirmed facts from estimates, reports, and unverified alerts.
+4. Escalate safety, security, temperature, damage, or delivery-window concerns to the responsible human operations team.
+5. Do not change an order, promise a new ETA, or mark a shipment delivered based only on a model-generated answer.
+6. Preserve the source and timestamp of information included in a customer update.
+
+DOCUMENTATION AND PROOF OF DELIVERY
+- A delivery is considered documented in this demo only when the order has a delivery event and the required proof-of-delivery evidence is attached.
+- If a scan, signature, image, count, or seal detail is missing or inconsistent, flag it for human review.
+- Do not infer a recipient's identity or signature from incomplete documents.
+- Keep source document references attached to the shipment record when available.
+
+COLD-CHAIN HANDLING
+- Use the temperature range specified by the shipment's handling instruction; do not assume one range applies to every product.
+- Record pre-trip checks and any available temperature readings against the shipment and vehicle.
+- A temperature warning requires human review. Do not claim the goods remained within range unless supporting readings establish that.
+- Do not recommend loading or continued transit when required conditions have not been verified.
+
+SECURITY AND DRIVER SAFETY
+- Treat crowd-sourced alerts and unverified reports as unconfirmed until checked through an approved operational source.
+- Do not disclose a driver's personal details or precise live location to an unauthorized requester.
+- Safety decisions remain with the driver and authorized operations personnel. The assistant may summarize available notices but must not direct a driver into or around a hazardous area.
+- Report a security concern through the designated dispatch escalation channel.
+
+DATA AND ACCESS
+- This demo contains no real customer, employee, or vehicle records.
+- In a production system, access should be limited by role and business need.
+- Do not expose personal information, customer pricing, or shipment details outside the requester's authorized scope.
+- Keep source identifiers and timestamps with retrieved information so answers can be checked.
+
+FAQ
+
+Q: Is Ditiro Logistics a real company?
+A: No. It is a fictional organization created for this demo knowledge base.
+
+Q: Can Ditiro confirm where a vehicle is right now?
+A: Only the latest available location event can be reported. Include its timestamp and explain that it may not be current.
+
+Q: Can Ditiro promise a delivery time?
+A: No. It can retrieve the recorded SLA and summarize available evidence. Dispatch must confirm any revised ETA or customer commitment.
+
+Q: What should happen when an order has no fleet assignment?
+A: Report that the assignment is missing in the order data and refer it to dispatch. Do not infer a vehicle or driver.
+
+Q: Does a missing scan mean the shipment was not loaded or delivered?
+A: Not necessarily. State that the scan is missing and ask the responsible team to verify the physical or operational status.
+
+Q: How should a temperature alert be handled?
+A: Report the warning, preserve its timestamp and source, and escalate it for human review. Do not infer product condition from an alert alone.
+
+Q: Are the sample SLA penalties contractual?
+A: No. They are fictional values for testing data ingestion, retrieval, and answer grounding.
+
+Q: May the AI update orders or reroute vehicles?
+A: No. This demo is for information retrieval and grounded answers only. Operational records and routing decisions require authorized human action.
+
+Q: What should an answer do when documents conflict?
+A: Identify the conflicting sources and their timestamps, avoid choosing one without evidence, and recommend verification by the responsible team.
+
+Q: What does Ditiro do with these documents?
+A: The intended demo workflow is to retrieve relevant passages or structured records and answer logistics questions with source references and visible uncertainty.

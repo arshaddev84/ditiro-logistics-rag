@@ -1,0 +1,76 @@
+.env
+.env.*
+!.env.example
+!apps/web/.env.local.example
+
+# Python environments, caches, and build output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+coverage.xml
+
+# Node.js and Next.js output
+node_modules/
+.next/
+out/
+.turbo/
+.vercel/
+apps/web/.env.local
+apps/web/tsconfig.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local generated content and logs
+workspace/generated/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
+
+# Credentials and private keys
+.secrets/
+secrets/
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Local model weights, caches, and unapproved datasets
+models/
+model_cache/
+.cache/
+cache/
+artifacts/
+checkpoints/
+data/
+datasets/
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+main_updated.py
+
+agents

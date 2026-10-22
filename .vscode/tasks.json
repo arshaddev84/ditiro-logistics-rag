@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Verify API unit tests",
+			"type": "shell",
+			"command": "source ../../../venv/bin/activate && python -m pytest services/api/tests/test_main.py -q",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

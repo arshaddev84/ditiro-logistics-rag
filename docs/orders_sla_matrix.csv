@@ -1,0 +1,21 @@
+order_id,client_name,origin,destination,sla_deadline,cargo_type,penalty_per_hour_zar,assigned_fleet_id
+ORD-20261015-001,Acacia Pantry,Durban Port Terminal,Midrand Distribution Centre,2026-10-15T18:00:00Z,Perishable Foodstuffs,12000,ZA-FL-001
+ORD-20261015-002,Blue Crane Devices,Johannesburg Depot,Pinetown Hub,2026-10-16T06:00:00Z,Consumer Electronics,18000,ZA-FL-002
+ORD-20261015-003,Karoo Spring Beverages,Durban Port Terminal,Alrode Industrial Park,2026-10-16T08:00:00Z,Bottled Beverages,9000,ZA-FL-003
+ORD-20261015-004,Table Mountain Provisions,Cape Town Distribution Centre,Paarl Cold Store,2026-10-15T14:00:00Z,Chilled Groceries,7500,ZA-FL-004
+ORD-20261015-005,Highveld Farm Supply,Johannesburg Depot,Sasolburg Cross-Dock,2026-10-15T16:00:00Z,Agricultural Supplies,6000,ZA-FL-005
+ORD-20261015-006,Umgeni Homeware,Durban Distribution Centre,Richards Bay Retail Hub,2026-10-15T17:00:00Z,Household Goods,4500,ZA-FL-006
+ORD-20261015-007,Marula Health Products,Johannesburg Depot,Bloemfontein Clinic Store,2026-10-16T12:00:00Z,Non-Refrigerated Medical Supplies,14000,ZA-FL-007
+ORD-20261015-008,Sunbird Packaging,Gqeberha Industrial Park,East London Depot,2026-10-15T19:00:00Z,Packaging Materials,5000,ZA-FL-008
+ORD-20261015-009,Orchid Office Systems,Midrand Distribution Centre,Pretoria East Business Park,2026-10-15T13:00:00Z,Office Equipment,4000,ZA-FL-009
+ORD-20261015-010,Red Dune Auto Parts,Durban Port Terminal,Newcastle Parts Depot,2026-10-16T10:00:00Z,Automotive Components,11000,ZA-FL-010
+ORD-20261015-011,Silverleaf Dairy Co-op,Pietermaritzburg Cold Store,Durban Retail Hub,2026-10-15T15:00:00Z,Chilled Dairy,13000,ZA-FL-011
+ORD-20261015-012,West Coast Textiles,Cape Town Distribution Centre,George Retail Depot,2026-10-16T07:00:00Z,Textiles,3500,ZA-FL-012
+ORD-20261015-013,Amber Field Seeds,Bloemfontein Depot,Kimberley Farm Hub,2026-10-16T09:00:00Z,Packaged Seeds,5500,ZA-FL-013
+ORD-20261015-014,Coastal Bright Lighting,Gqeberha Industrial Park,George Trade Centre,2026-10-16T11:00:00Z,Electrical Goods,6500,ZA-FL-014
+ORD-20261015-015,Ironwood Building Supply,Johannesburg Depot,Polokwane Trade Depot,2026-10-16T08:00:00Z,Construction Materials,7000,ZA-FL-015
+ORD-20261015-016,Bluewater Frozen Foods,Durban Cold Store,Pinetown Retail Hub,2026-10-15T12:00:00Z,Frozen Food,15000,ZA-FL-016
+ORD-20261015-017,Meadowline Animal Care,Pretoria Depot,Nelspruit Distribution Point,2026-10-16T13:00:00Z,Animal Health Products,8000,ZA-FL-017
+ORD-20261015-018,Golden Route Coffee,Cape Town Roastery,Stellenbosch Distribution Point,2026-10-15T14:30:00Z,Packaged Coffee,3000,ZA-FL-018
+ORD-20261015-019,Northbank Water Systems,Johannesburg Depot,Welkom Service Centre,2026-10-16T15:00:00Z,Water Filtration Equipment,6000,ZA-FL-019
+ORD-20261015-020,Green Basket Produce,Ceres Produce Market,Cape Town Distribution Centre,2026-10-15T11:30:00Z,Fresh Produce,12500,ZA-FL-020

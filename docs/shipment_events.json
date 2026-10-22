@@ -1,0 +1,182 @@
+[
+    {
+        "event_id": "EVT-26015-001",
+        "order_id": "ORD-26015-001",
+        "timestamp": "2026-10-15T06:00:00Z",
+        "event_type": "loading_started",
+        "location": "Durban Port Terminal",
+        "details": "Container assigned to outbound load; terminal queue may affect gate-out time.",
+        "source": "synthetic_dispatch_feed"
+    },
+    {
+        "event_id": "EVT-26015-002",
+        "order_id": "ORD-26015-002",
+        "timestamp": "2026-10-15T06:20:00Z",
+        "event_type": "crossdock_checkin",
+        "location": "Isando Cross-Dock",
+        "details": "Shipment checked in; outbound scan is pending.",
+        "source": "synthetic_warehouse_feed"
+    },
+    {
+        "event_id": "EVT-26015-003",
+        "order_id": "ORD-26015-003",
+        "timestamp": "2026-10-15T07:00:00Z",
+        "event_type": "staged_for_dispatch",
+        "location": "City Deep Freight Terminal",
+        "details": "Pallets staged; gate-out scan not yet recorded.",
+        "source": "synthetic_warehouse_feed"
+    },
+    {
+        "event_id": "EVT-26015-004",
+        "order_id": "ORD-26015-004",
+        "timestamp": "2026-10-15T06:18:00Z",
+        "event_type": "temperature_check_exception",
+        "location": "Durban Cold Store",
+        "details": "Pre-trip refrigeration warning received; vehicle held for inspection.",
+        "source": "synthetic_vehicle_feed"
+    },
+    {
+        "event_id": "EVT-26015-005",
+        "order_id": "ORD-26015-005",
+        "timestamp": "2026-10-15T06:25:00Z",
+        "event_type": "loading_started",
+        "location": "Johannesburg Warehouse",
+        "details": "Loading in progress; seal number not yet recorded.",
+        "source": "synthetic_warehouse_feed"
+    },
+    {
+        "event_id": "EVT-26015-006",
+        "order_id": "ORD-26015-006",
+        "timestamp": "2026-10-15T06:25:00Z",
+        "event_type": "in_transit",
+        "location": "Estcourt area",
+        "details": "Vehicle moving north; driver status check requested after an earlier stop.",
+        "source": "synthetic_telematics_feed"
+    },
+    {
+        "event_id": "EVT-26015-007",
+        "order_id": "ORD-26015-007",
+        "timestamp": "2026-10-15T06:30:00Z",
+        "event_type": "awaiting_dispatch",
+        "location": "Midrand Distribution Centre",
+        "details": "Order staged; no departure scan recorded.",
+        "source": "synthetic_warehouse_feed"
+    },
+    {
+        "event_id": "EVT-26015-008",
+        "order_id": "ORD-26015-008",
+        "timestamp": "2026-10-15T06:35:00Z",
+        "event_type": "in_transit",
+        "location": "Gauteng",
+        "details": "Vehicle moving east; next location update pending.",
+        "source": "synthetic_telematics_feed"
+    },
+    {
+        "event_id": "EVT-26015-009",
+        "order_id": "ORD-26015-009",
+        "timestamp": "2026-10-15T08:19:00Z",
+        "event_type": "document_pending",
+        "location": "Cape Town Epping Market",
+        "details": "Proof-of-collection image has not been attached to the order record.",
+        "source": "synthetic_document_feed"
+    },
+    {
+        "event_id": "EVT-26015-010",
+        "order_id": "ORD-26015-010",
+        "timestamp": "2026-10-15T06:45:00Z",
+        "event_type": "in_transit",
+        "location": "Gauteng",
+        "details": "Vehicle moving west; ETA has not been validated.",
+        "source": "synthetic_telematics_feed"
+    },
+    {
+        "event_id": "EVT-26015-011",
+        "order_id": "ORD-26015-011",
+        "timestamp": "2026-10-15T10:08:00Z",
+        "event_type": "delivery_window_exception",
+        "location": "Durban Retail Cross-Dock",
+        "details": "Consignee temporarily unable to receive; dispatch is checking the delivery window.",
+        "source": "synthetic_customer_service_feed"
+    },
+    {
+        "event_id": "EVT-26015-012",
+        "order_id": "ORD-26015-012",
+        "timestamp": "2026-10-15T06:55:00Z",
+        "event_type": "port_queue",
+        "location": "Durban Port Terminal",
+        "details": "Vehicle in terminal queue; fuel stop plan requires confirmation.",
+        "source": "synthetic_telematics_feed"
+    },
+    {
+        "event_id": "EVT-26015-013",
+        "order_id": "ORD-26015-013",
+        "timestamp": "2026-10-15T07:00:00Z",
+        "event_type": "loading_started",
+        "location": "Bloemfontein Agri Depot",
+        "details": "Order is being loaded; departure time is not yet available.",
+        "source": "synthetic_warehouse_feed"
+    },
+    {
+        "event_id": "EVT-26015-014",
+        "order_id": "ORD-26015-014",
+        "timestamp": "2026-10-15T07:15:00Z",
+        "event_type": "in_transit",
+        "location": "Johannesburg",
+        "details": "Vehicle moving south; latest position received at 07:15Z.",
+        "source": "synthetic_telematics_feed"
+    },
+    {
+        "event_id": "EVT-26015-015",
+        "order_id": "ORD-26015-015",
+        "timestamp": "2026-10-15T10:44:00Z",
+        "event_type": "pallet_count_mismatch",
+        "location": "Centurion Parts Hub",
+        "details": "Delivery note count differs from warehouse scan; reconciliation required.",
+        "source": "synthetic_document_feed"
+    },
+    {
+        "event_id": "EVT-26015-016",
+        "order_id": "ORD-26015-016",
+        "timestamp": "2026-10-15T07:15:00Z",
+        "event_type": "pre_cooling",
+        "location": "Cape Town Cold Store",
+        "details": "Vehicle pre-cooling is in progress; loading awaits the required temperature check.",
+        "source": "synthetic_vehicle_feed"
+    },
+    {
+        "event_id": "EVT-26015-017",
+        "order_id": "ORD-26015-017",
+        "timestamp": "2026-10-15T07:20:00Z",
+        "event_type": "in_transit",
+        "location": "KwaZulu-Natal",
+        "details": "Vehicle moving north; no exception currently recorded.",
+        "source": "synthetic_telematics_feed"
+    },
+    {
+        "event_id": "EVT-26015-018",
+        "order_id": "ORD-26015-018",
+        "timestamp": "2026-10-15T07:25:00Z",
+        "event_type": "security_check",
+        "location": "Isando Cross-Dock",
+        "details": "Driver completing a scheduled security check before dispatch.",
+        "source": "synthetic_dispatch_feed"
+    },
+    {
+        "event_id": "EVT-26015-019",
+        "order_id": "ORD-26015-019",
+        "timestamp": "2026-10-15T07:30:00Z",
+        "event_type": "in_transit",
+        "location": "Komatipoort area",
+        "details": "Vehicle moving west; customer has requested an ETA update.",
+        "source": "synthetic_telematics_feed"
+    },
+    {
+        "event_id": "EVT-26015-020",
+        "order_id": "ORD-26015-020",
+        "timestamp": "2026-10-15T07:35:00Z",
+        "event_type": "unassigned_load",
+        "location": "Durban Port Terminal",
+        "details": "Order has no fleet assignment; terminal appointment confirmation is pending.",
+        "source": "synthetic_dispatch_feed"
+    }
+]

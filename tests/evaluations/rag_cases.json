@@ -1,0 +1,37 @@
+[
+  {
+    "id": "missing-scan-is-not-proof",
+    "question": "Does a missing shipment scan prove that the activity did not happen?",
+    "expected_sources": ["ditiro_company_knowledge.txt"],
+    "required_evidence": ["A missing scan is not proof that an activity did not occur"],
+    "should_abstain": false
+  },
+  {
+    "id": "temperature-warning-needs-review",
+    "question": "Can we confirm that order ORD-26015-004 stayed within its temperature range?",
+    "expected_sources": ["ditiro_company_knowledge.txt", "shipment_events.json"],
+    "required_evidence": ["temperature warning requires human review", "held for inspection"],
+    "should_abstain": true
+  },
+  {
+    "id": "eta-is-not-a-commitment",
+    "question": "Can the assistant promise a revised delivery time based on a delay estimate?",
+    "expected_sources": ["ditiro_company_knowledge.txt"],
+    "required_evidence": ["Dispatch must confirm any revised ETA or customer commitment"],
+    "should_abstain": false
+  },
+  {
+    "id": "unassigned-order-details",
+    "question": "Which fleet and driver are assigned to order ORD-26015-020?",
+    "expected_sources": ["ditiro_company_knowledge.txt", "shipment_events.json"],
+    "required_evidence": ["Order has no fleet assignment", "Do not infer a vehicle or driver"],
+    "should_abstain": true
+  },
+  {
+    "id": "unsupported-recipient-identity",
+    "question": "What is the recipient's name and signature for order ORD-26015-020?",
+    "expected_sources": ["ditiro_company_knowledge.txt", "shipment_events.json"],
+    "required_evidence": ["Do not infer a recipient's identity or signature from incomplete documents"],
+    "should_abstain": true
+  }
+]
