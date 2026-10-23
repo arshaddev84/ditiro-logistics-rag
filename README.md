@@ -705,6 +705,20 @@ docker compose --env-file .env -f infra/compose/compose.yaml down --volumes
 
 Compose includes only dependencies used by the active Phase 1 application. The separate Go ingestion worker and Redis are not started because the current API does not use them.
 
+## Screenshots
+
+### Web Dashboard
+![Ditiro Logistics Web Dashboard](ditiro_screenshot_01.jpg)
+
+### Web Dashboard Prepopulated Question
+![Ditiro Logistics Web Dashboard](ditiro_screenshot_02.jpg)
+
+### Web Dashboard Settings
+![Ditiro Logistics Web Dashboard](ditiro_screenshot_05.jpg)
+
+### Web Dashboard RAG Answer
+![Ditiro Logistics Web Dashboard](ditiro_screenshot_04.jpg)
+
 ### Next phases
 
 - **Phase 2:** Calibrate retrieval with a versioned evaluation set and define abstention thresholds using representative questions.
