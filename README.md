@@ -708,16 +708,16 @@ Compose includes only dependencies used by the active Phase 1 application. The s
 ## Screenshots
 
 ### Web Dashboard
-![Ditiro Logistics Web Dashboard](ditiro_screenshot_01.jpg)
+![Ditiro Logistics Web Dashboard](ditiro_screenshot_01.JPG)
 
 ### Web Dashboard Prepopulated Question
-![Ditiro Logistics Web Dashboard](ditiro_screenshot_02.jpg)
+![Ditiro Logistics Web Dashboard](ditiro_screenshot_02.JPG)
 
 ### Web Dashboard Settings
-![Ditiro Logistics Web Dashboard](ditiro_screenshot_05.jpg)
+![Ditiro Logistics Web Dashboard](ditiro_screenshot_05.JPG)
 
 ### Web Dashboard RAG Answer
-![Ditiro Logistics Web Dashboard](ditiro_screenshot_04.jpg)
+![Ditiro Logistics Web Dashboard](ditiro_screenshot_04.JPG)
 
 ### Next phases
 
